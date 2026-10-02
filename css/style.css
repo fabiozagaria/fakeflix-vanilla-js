@@ -529,3 +529,25 @@ h2 {
 .footer-copy {
   font-size: 0.9rem;
 }
+
+/* Accessible theme switch, available outside the mobile navigation. */
+.theme-toggle {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-width: 44px; min-height: 44px; flex-shrink: 0;
+  border: 1px solid currentColor; border-radius: 50%;
+  background: transparent; color: inherit; font-size: 1.5rem;
+  cursor: pointer; margin-inline: 0.5rem;
+}
+.theme-toggle:focus-visible { outline: 3px solid #38bdf8; outline-offset: 3px; }
+
+html[data-theme="light"] {
+  --bg-color: #f5f6fa; --text-primary: #18202d; --text-secondary: #515b6b;
+  --bg-modal: #fff; --bg-card: #e6e9f0; --border-color: #c5ccd7; --color-match: #18783b;
+}
+html[data-theme="light"] .header { background: rgba(245,246,250,.96); }
+.hero-content { color: white; }
+.email-input, .btn-red, .btn-login { color: white; }
+html[data-theme="light"] .email-input { background: #fff; color: #18202d; }
+html[data-theme="light"] .email-input::placeholder { color: #515b6b; }
+.header .theme-toggle { margin-left: auto; }
+@media (max-width: 600px) { .header { flex-wrap: wrap; gap: 8px; } .header .nav-menu { order: 3; width: 100%; } }

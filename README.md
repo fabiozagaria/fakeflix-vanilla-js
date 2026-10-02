@@ -77,3 +77,7 @@ Progetto esclusivamente educativo, non affiliato a Netflix. Marchi e contenuti c
 ## Autore
 
 Fabio Zagaria — progetto realizzato durante il percorso LabForWeb / Nerd Academy.
+
+## Tema della pagina
+
+Il pulsante sole/luna nell’intestazione consente di cambiare tema e ricorda la scelta nel browser.

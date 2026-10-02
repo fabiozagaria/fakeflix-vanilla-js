@@ -12,3 +12,6 @@ Demo responsive ispirata a una piattaforma streaming, costruita senza framework 
 
 ## Punto di ripresa
 Nessun lavoro attivo obbligatorio. Eventuali interventi dovrebbero riguardare bug, accessibilità, performance o rifiniture, senza alterare lo scope educativo salvo decisione esplicita.
+
+## Tema UI — 2026-10-02
+Pulsante sole/luna accessibile nell’intestazione, tema coerente con i colori esistenti e scelta ricordata nel browser.

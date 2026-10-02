@@ -6,6 +6,18 @@
   <title>Stranger Things | Fakeflix</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="js/app.js" defer></script>
+  <script>
+    (() => {
+      let saved;
+      try { saved = localStorage.getItem('color-theme'); } catch {}
+      const dark = saved === 'dark' || (saved !== 'light' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+      const theme = dark ? 'dark' : 'light';
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.dataset.bsTheme = theme;
+      document.documentElement.style.colorScheme = theme;
+    })();
+  </script>
+  <script src="js/theme.js" defer></script>
 </head>
 <body>
   <header class="header">
@@ -19,6 +31,7 @@
       <a href="#suggestions">Potrebbe piacerti</a>
       <a href="#plans">Piani</a>
     </nav>
+    <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Cambia tema"></button>
     <button class="btn btn-login">Accedi</button>
   </header>
 
