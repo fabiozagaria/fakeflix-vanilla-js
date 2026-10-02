@@ -4,6 +4,10 @@ Landing page responsive ispirata all'esperienza di una piattaforma streaming e d
 
 [Demo online](https://fakeflix-lemon-six.vercel.app/)
 
+## Stato e ruolo
+
+Demo frontend di consultazione e manutenzione mirata: DOM, eventi e rendering in JavaScript nativo. Eventuali interventi riguardano bug, accessibilità o rifiniture. Non è prevista un'espansione backend nel lavoro corrente.
+
 ## Competenze dimostrate
 
 - costruzione di un'interfaccia responsive senza librerie UI;
