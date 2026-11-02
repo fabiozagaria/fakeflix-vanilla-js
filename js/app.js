@@ -186,7 +186,7 @@ const plans = [
     name: "Premium",
     price: "17,99 €",
     quality: "Eccezionale (4K+HDR)",
-    features: "4 Dispositivi in contemporanea<br>Audio spaziale Netflix"
+    features: "4 Dispositivi in contemporanea<br>Audio spaziale"
   }
 ];
 
